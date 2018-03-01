@@ -1,0 +1,152 @@
+    1  # yum install strace
+    2   yum install strace
+    3  yum install gcc kernel-devel-${UNAME%.*}
+    4  yum install gcc ncurses-devel ncurses
+    5  git clone https://github.com/Lauraitp/so-workshop2
+    6  git clone https://github.com/Lauraitp/so-workshop2.git
+    7  ls
+    8  cd so-workshop2/
+    9  ls
+   10  mkdir A00054120
+   11  cd A00054120/
+   12  vi makefile
+   13  vi syscl_01.c
+   14  gcc syscl_01.c -o syscl_01.o 
+   15  vi syscl_01.c
+   16  gcc syscl_01.c -o syscl_01.o 
+   17  vi syscl_01.c
+   18  gcc syscl_01.c -o syscl_01.o 
+   19  ./syscl_01.o 
+   20  ls
+   21  vi syscl_02.c
+   22  gcc syscl_02.c -o syscl_02.o 
+   23  vi syscl_02.c
+   24  gcc syscl_02.c -o syscl_02.o 
+   25  vi syscl_02.c
+   26  gcc syscl_02.c -o syscl_02.o 
+   27  ./syscl_02.o
+   28  vi syscl_02.c
+   29  gcc syscl_02.c -o syscl_02.o 
+   30  vi syscl_02.c
+   31  gcc syscl_02.c -o syscl_02.o 
+   32  vi syscl_02.o
+   33  ./syscl_02.o
+   34  ls
+   35  vi tareaSysCl.txt
+   36  vi syscl_02.o
+   37  vi syscl_02.c
+   38  vi syscl_02.o
+   39  vim syscl_02.c
+   40  yum install vim
+   41  vim syscl_02.c
+   42  gcc syscl_02.c -o syscl_02.o
+   43  ./syscl_02.o
+   44  vim tareaSysCl.txt 
+   45  vim syscl_03.c
+   46  gcc syscl_03.c -o syscl_03.o
+   47  vim syscl_03.c
+   48  gcc syscl_03.c -o syscl_03.o
+   49  vim syscl_03.c
+   50  vim syscl_02.c
+   51  vim syscl_03.c
+   52  gcc syscl_03.c -o syscl_03.o
+   53  vim syscl_03.c
+   54  gcc syscl_03.c -o syscl_03.o
+   55  ./syscl_03.o
+   56  cd tareaSysCl.txt 
+   57  ls
+   58  vi tareaSysCl.txt 
+   59  ./syscl_03.o
+   60  vim syscl_03.c
+   61  gcc syscl_03.c -o syscl_03.o
+   62  vim syscl_02.c
+   63  vim syscl_03.c
+   64  gcc syscl_03.c -o syscl_03.o
+   65  ./syscl_03.o
+   66  vim syscl_03.c
+   67  gcc syscl_03.c -o syscl_03.o
+   68  ./syscl_03.o
+   69  ./syscl_02.o
+   70  ./syscl_03.o
+   71  vim syscl_03.c
+   72  gcc syscl_03.c -o syscl_03.o
+   73  ./syscl_03.o
+   74  vim syscl_03.c
+   75  gcc syscl_03.c -o syscl_03.o
+   76  ./syscl_03.o
+   77  gcc syscl_03.c -o syscl_03.o
+   78  ./syscl_03.o
+   79  vim syscl_03.c
+   80  gcc syscl_03.c -o syscl_03.o
+   81  ./syscl_03.o
+   82  vim syscl_03.c
+   83  gcc syscl_03.c -o syscl_03.o
+   84  vim syscl_03.c
+   85  gcc syscl_03.c -o syscl_03.o
+   86  ./syscl_03.o
+   87  vim syscl_03.c
+   88  gcc syscl_03.c -o syscl_03.o
+   89  ./syscl_03.o
+   90  vim syscl_03.c
+   91  gcc syscl_03.c -o syscl_03.o
+   92  ./syscl_03.o
+   93  vim syscl_03.c
+   94  gcc syscl_03.c -o syscl_03.o
+   95  ./syscl_03.o
+   96  vim syscl_03.c
+   97  gcc syscl_03.c -o syscl_03.o
+   98  ./syscl_03.o
+   99  vim syscl_03.c
+  100  gcc syscl_03.c -o syscl_03.o
+  101  ./syscl_03.o
+  102  ls
+  103  vim README.md
+  104  vim syscl_03.c
+  105  gcc syscl_03.c -o syscl_03.o
+  106  ./syscl_03.o
+  107  vim syscl_03.c
+  108  gcc syscl_03.c -o syscl_03.o
+  109  vim syscl_03.c
+  110  gcc syscl_03.c -o syscl_03.o
+  111  vim syscl_03.c
+  112  ./syscl_03.o
+  113  gcc syscl_03.c -o syscl_03.o
+  114  ./syscl_03.o
+  115  vim syscl_03.c
+  116  gcc syscl_03.c -o syscl_03.o
+  117  vim syscl_03.c
+  118  gcc syscl_03.c -o syscl_03.o
+  119  ./syscl_03.o
+  120  vim tareaSysCl.txt 
+  121  vim syscl_03.c
+  122  vim syscl_02.c
+  123  vim syscl_03.c
+  124  gcc syscl_03.c -o syscl_03.o
+  125  vim syscl_03.c
+  126  gcc syscl_03.c -o syscl_03.o
+  127  ./syscl_03.o
+  128  vim syscl_03.c
+  129  gcc syscl_03.c -o syscl_03.o
+  130  ./syscl_03.o
+  131  vim syscl_03.c
+  132  gcc syscl_03.c -o syscl_03.o
+  133  ./syscl_03.o
+  134  vim syscl_03.c
+  135  gcc syscl_03.c -o syscl_03.o
+  136  ./syscl_03.o
+  137  ls
+  138  vim MakeFile
+  139  cat MakeFile
+  140  rm -rf syscl_01.o
+  141  ls
+  142  make EJECUTAR
+  143  rm syscl_01.o
+  144* gcc 
+  145  gcc syscl_01.c -o syscl_01.o
+  146  ./syscl_01.o
+  147  make EJECUTAR
+  148  strace ./syscl_01.o
+  149  ls
+  150  history
+  151  ls
+  152  history>CommandList.txt
