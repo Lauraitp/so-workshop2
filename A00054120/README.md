@@ -7,12 +7,11 @@ Universidad ICESI
 
 ## Descripcion:  
 Las llamadas del sistema que se hicieron fueron las siguientes: open, write y read  
-### **Función open**  
-La función open abre un archivo ya existente, sino lo que hace es realizarlo, con el O_CREAT, S_IWUSR.
-open ( char name, int create, int permiso )  
+### **Función creat**  
+La función creat crea un archivo, sino lo que hace es realizarlo, con el O_CREAT, S_IWUSR.
+creat ( char name, int permiso )  
 -El parámetro name es la cadena de como se llamara el archivo, en mi caso será: "tareaSysCl.txt".  
--El parámetro establece la creación del archivo si no existe.  
--El parámetro acceso sólo se ha de emplear cuando se incluya la opción O_CREAT, y es un entero que define los permisos de acceso al archivo creado. Consulten en la bibliografía cómo se codifican los permisos.  
+-El parámetro acceso se empleará S_IWUSR,  es un entero que define los permisos de acceso al archivo creado y que este pueda ser escrito. Consulten en la bibliografía cómo se codifican los permisos.  
   
 Retorna -1 si existe algún error.
 Dado el caso de necesitar abrir un archivo con int algo=open(char,o_creat|o_wronly)
