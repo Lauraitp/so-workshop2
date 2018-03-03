@@ -16,11 +16,7 @@ creat ( char name, int permiso )
   
 -El parámetro acceso sólo se ha de emplear cuando se incluya la opción S_IRWXU, y es un entero que define los permisos de escritura y lectura.  
 
-### **Función creat**  
-La función creat crea un archivo, sino lo que hace es realizarlo, con el O_CREAT, S_IWUSR.
-creat ( char name, int permiso )  
--El parámetro name es la cadena de como se llamara el archivo, en mi caso será: "tareaSysCl.txt".  
--El parámetro acceso se empleará S_IWUSR,  es un entero que define los permisos de acceso al archivo creado y que este pueda ser escrito. Consulten en la bibliografía cómo se codifican los permisos.  
+  
   
 Retorna -1 si existe algún error.
   
