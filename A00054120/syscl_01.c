@@ -6,8 +6,8 @@
 int main(){
 
 	printf("Hola soy un syscl iniciando \n");
-	creat("tareaSysCl.txt",S_IWUSR);
-	printf("File created \n");
+
+	printf("File created \n",S_IRWXU);
        
 	printf("Hola soy un syscl finalizando\n");
 	return 0;
