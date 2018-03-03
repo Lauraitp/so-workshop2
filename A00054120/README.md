@@ -9,7 +9,8 @@ Universidad ICESI
 Las llamadas del sistema que se hicieron fueron las siguientes: creat, write y read  
 
 ### **Función Creat**  
-La función open abre un archivo ya existente, sino lo que hace es realizarlo, con el S_IRWXU.
+La función crea un archivo y le da permisos de escritura, lectura, etc.
+
 creat ( char name, int permiso )  
 -El parámetro name es la cadena de como se llamara el archivo, en mi caso será: "tareaSysCl.txt".  
   
