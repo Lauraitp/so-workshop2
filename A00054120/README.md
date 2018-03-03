@@ -6,8 +6,8 @@ Universidad ICESI
 **Tema:** Llamadas al sistema  
 
 ## Descripcion:  
-Las llamadas del sistema que se hicieron fueron las siguientes: open, write y read  
-<<<<<<< HEAD
+Las llamadas del sistema que se hicieron fueron las siguientes: creat, write y read  
+
 ### **Función Creat**  
 La función open abre un archivo ya existente, sino lo que hace es realizarlo, con el S_IRWXU.
 creat ( char name, int permiso )  
@@ -20,7 +20,6 @@ La función creat crea un archivo, sino lo que hace es realizarlo, con el O_CREA
 creat ( char name, int permiso )  
 -El parámetro name es la cadena de como se llamara el archivo, en mi caso será: "tareaSysCl.txt".  
 -El parámetro acceso se empleará S_IWUSR,  es un entero que define los permisos de acceso al archivo creado y que este pueda ser escrito. Consulten en la bibliografía cómo se codifican los permisos.  
->>>>>>> 9bb52ac9f622ccb29241247e92d4d39fa25cf7cd
   
 Retorna -1 si existe algún error.
   
